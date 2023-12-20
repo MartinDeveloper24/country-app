@@ -5,14 +5,16 @@ import { RouterModule } from '@angular/router';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { ContactPageComponent } from './pages/contact/contact.component';
 
 
 
 @NgModule({
   declarations: [
     AboutPageComponent,
+    ContactPageComponent,
     HomePageComponent,
-    SidebarComponent
+    SidebarComponent,
   ],
   imports: [
     CommonModule,
@@ -20,6 +22,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   ],
   exports: [
     AboutPageComponent,
+    ContactPageComponent,
     HomePageComponent,
     SidebarComponent
   ]
